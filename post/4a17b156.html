@@ -174,7 +174,6 @@
 
   preloader.initLoading()
   window.addEventListener('load', preloader.endLoading)
-  setTimeout(function(){preloader.endLoading();}, 5000);
 
   if (false) {
     btf.addGlobalFn('pjaxSend', preloader.initLoading, 'preloader_init')
