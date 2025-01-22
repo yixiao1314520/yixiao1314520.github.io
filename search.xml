@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>==和equals的区别</title>
+      <link href="/post/fa1bfd76.html"/>
+      <url>/post/fa1bfd76.html</url>
+      
+        <content type="html"><![CDATA[<p>“ &#x3D;&#x3D; “可以作用在 <strong>基础数据类型</strong> 中，也可以作用在 <strong>引用数据类型中</strong><br>equals()只能作用在<strong>引用数据类型</strong>(两个对象)，无法作用在基本数据类型</p><p>“ &#x3D;&#x3D; “作用在 <strong>基础数据类型</strong> 时比较的是 <strong>值</strong> 是否相同，作用在 <em>引用数据类型</em> 时比较的是两个对象的 <strong>内存地址</strong> 是否一致(是否指向的是相同对象)<br>equals()方法在不重写的情况下调用的是” &#x3D;&#x3D; “也就是比较两个对象的 <em>内存地址</em> 是否一致，但是equals()是可以重写的，如果重写后具体对比的含义根据重写规则而定</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/post/4a17b156.html"/>
       <url>/post/4a17b156.html</url>
@@ -25,6 +38,17 @@
       <url>/about/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>友链</title>
+      <link href="/links/index.html"/>
+      <url>/links/index.html</url>
+      
+        <content type="html"><![CDATA[<p>wsq: <a href="https://2656172491.github.io/">https://2656172491.github.io</a></p>]]></content>
       
     </entry>
     
