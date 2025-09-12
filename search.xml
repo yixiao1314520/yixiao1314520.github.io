@@ -4,11 +4,63 @@
   
     
     <entry>
-      <title>==和equals的区别</title>
-      <link href="/post/fa1bfd76.html"/>
-      <url>/post/fa1bfd76.html</url>
+      <title></title>
+      <link href="/post/0.html"/>
+      <url>/post/0.html</url>
       
-        <content type="html"><![CDATA[<p>“ &#x3D;&#x3D; “可以作用在 <strong>基础数据类型</strong> 中，也可以作用在 <strong>引用数据类型中</strong><br>equals()只能作用在<strong>引用数据类型</strong>(两个对象)，无法作用在基本数据类型</p><p>“ &#x3D;&#x3D; “作用在 <strong>基础数据类型</strong> 时比较的是 <strong>值</strong> 是否相同，作用在 <em>引用数据类型</em> 时比较的是两个对象的 <strong>内存地址</strong> 是否一致(是否指向的是相同对象)<br>equals()方法在不重写的情况下调用的是” &#x3D;&#x3D; “也就是比较两个对象的 <em>内存地址</em> 是否一致，但是equals()是可以重写的，如果重写后具体对比的含义根据重写规则而定</p>]]></content>
+        <content type="html"><![CDATA[<h2 id="相同点"><a href="#相同点" class="headerlink" title="相同点"></a>相同点</h2><ol><li>用法一样，作用一样</li></ol><h2 id="不同点"><a href="#不同点" class="headerlink" title="不同点"></a>不同点</h2><ul><li>StringBuilder：拼接效率比StringBuffer高，线程不安全</li><li>StringBuffer：效率比较低，线程安全</li><li>拼接效率：StringBuilder &gt; StringBuffer &gt; String</li></ul><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>String：适用于少量的字符串操作的情况<br>StringBuilder：适用于单线程下在字符缓冲区进行大量操作的情况<br>StringBuffer：适用多线程下在字符缓冲区进行大量操作的情况</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/post/0.html"/>
+      <url>/post/0.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="String-s-new-String-“abc”-有几个对象？"><a href="#String-s-new-String-“abc”-有几个对象？" class="headerlink" title="String s &#x3D; new String(“abc”)有几个对象？"></a>String s &#x3D; new String(“abc”)有几个对象？</h2><p>答：<span style="background:#fff88f">两个对象</span>，<em>new本身</em> 和 <em>“abc”</em></p><h2 id="String-s-new-String-“abc”-创建了几个对象？"><a href="#String-s-new-String-“abc”-创建了几个对象？" class="headerlink" title="String s &#x3D; new String (“abc”)创建了几个对象？"></a>String s &#x3D; new String (“abc”)创建了几个对象？</h2><p>答：如果之前创建了abc，那么只创建了<span style="background:#fff88f">一个</span>，因为abc不用单独再创建了，直接共享就可以<br>答：如果之前没创建abc，那么要创建<span style="background:#fff88f">两个</span>，先创建abc，再创建new</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/post/0.html"/>
+      <url>/post/0.html</url>
+      
+        <content type="html"><![CDATA[<ol><li>简单易学</li><li>面向对象</li><li>平台无关性</li><li>支持多线程</li><li>可靠性</li><li>安全性</li><li>高效性</li><li>支持网络编程并且很方便</li><li>编译和解释共存</li></ol>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/post/0.html"/>
+      <url>/post/0.html</url>
+      
+        <content type="html"><![CDATA[<ol><li>Java SE（Java Platform，Standard Edition）：<em>Java 平台标准版</em>，Java 编程语言的基础，它包含了<em>支持 Java 应用程序开发</em>和<em>运行的核心类库</em>以及<em>虚拟机</em>等核心组件。Java SE 可以用于构建桌面应用程序或简单的服务器应用程序。<ol><li>Java EE（Java Platform, Enterprise Edition ）：<em>Java 平台企业版</em>，建立在 Java SE 的基础上，包含了<em>支持企业级应用程序开发</em>和<em>部署的标准和规范</em>（比如 Servlet、JSP、EJB、JDBC、JPA、JTA、JavaMail、JMS）。 Java EE 可以用于构建分布式、可移植、健壮、可伸缩和安全的服务端 Java 应用程序，例如 Web 应用程序。</li></ol></li><li>总结：Java SE 是 Java 的<em>基础</em>版本，Java EE 是 Java 的<em>高级</em>版本。Java SE 更适合开发桌面应用程序或简单的服务器应用程序，Java EE 更适合开发复杂的企业级应用程序或 Web 应用程序。</li></ol>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/post/0.html"/>
+      <url>/post/0.html</url>
+      
+        <content type="html"><![CDATA[<ul><li>“ &#x3D;&#x3D; “可以作用在 <em>基础数据类型</em> 中，也可以作用在 <em>引用数据类型中</em></li><li>equals()只能作用在<em>引用数据类型</em>(两个对象)，无法作用在基本数据类型</li><li>“ &#x3D;&#x3D; “作用在 <em>基础数据类型</em> 时比较的是 <em>值</em> 是否相同，作用在 <em>引用数据类型</em> 时比较的是两个对象的 <em>内存地址</em> 是否一致(是否指向的是相同对象)</li><li>equals()方法在不重写的情况下调用的是” &#x3D;&#x3D; “也就是比较两个对象的 <em>内存地址</em> 是否一致，但是equals()是可以重写的，如果重写后具体对比的含义根据重写规则而定</li></ul>]]></content>
       
       
       
@@ -49,6 +101,17 @@
       <url>/links/index.html</url>
       
         <content type="html"><![CDATA[<p>wsq: <a href="https://2656172491.github.io/">https://2656172491.github.io</a></p>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
+      
+        <content type="html"><![CDATA[<!DOCTYPE html><html lang="en"><head>  <meta charset="UTF-8">  <meta name="viewport" content="width=device-width, initial-scale=1.0">  <title>Document</title></head><body>  111111222222222</body></html>]]></content>
       
     </entry>
     
