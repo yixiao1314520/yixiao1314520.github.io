@@ -5,8 +5,8 @@
     
     <entry>
       <title>StringBuilder和StringBuffer区别</title>
-      <link href="/post/0.html"/>
-      <url>/post/0.html</url>
+      <link href="/post/4.html"/>
+      <url>/post/4.html</url>
       
         <content type="html"><![CDATA[<h2 id="相同点"><a href="#相同点" class="headerlink" title="相同点"></a>相同点</h2><ol><li>用法一样，作用一样</li></ol><h2 id="不同点"><a href="#不同点" class="headerlink" title="不同点"></a>不同点</h2><ul><li>StringBuilder：拼接效率比StringBuffer高，线程不安全</li><li>StringBuffer：效率比较低，线程安全</li><li>拼接效率：StringBuilder &gt; StringBuffer &gt; String</li></ul><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>String：适用于少量的字符串操作的情况<br>StringBuilder：适用于单线程下在字符缓冲区进行大量操作的情况<br>StringBuffer：适用多线程下在字符缓冲区进行大量操作的情况</p>]]></content>
       
@@ -18,8 +18,8 @@
     
     <entry>
       <title>String</title>
-      <link href="/post/0.html"/>
-      <url>/post/0.html</url>
+      <link href="/post/3.html"/>
+      <url>/post/3.html</url>
       
         <content type="html"><![CDATA[<h2 id="String-s-new-String-“abc”-有几个对象？"><a href="#String-s-new-String-“abc”-有几个对象？" class="headerlink" title="String s &#x3D; new String(“abc”)有几个对象？"></a>String s &#x3D; new String(“abc”)有几个对象？</h2><p>答：<span style="background:#fff88f">两个对象</span>，<em>new本身</em> 和 <em>“abc”</em></p><h2 id="String-s-new-String-“abc”-创建了几个对象？"><a href="#String-s-new-String-“abc”-创建了几个对象？" class="headerlink" title="String s &#x3D; new String (“abc”)创建了几个对象？"></a>String s &#x3D; new String (“abc”)创建了几个对象？</h2><p>答：如果之前创建了abc，那么只创建了<span style="background:#fff88f">一个</span>，因为abc不用单独再创建了，直接共享就可以<br>答：如果之前没创建abc，那么要创建<span style="background:#fff88f">两个</span>，先创建abc，再创建new</p>]]></content>
       
@@ -31,8 +31,8 @@
     
     <entry>
       <title>Java语言特点</title>
-      <link href="/post/0.html"/>
-      <url>/post/0.html</url>
+      <link href="/post/2.html"/>
+      <url>/post/2.html</url>
       
         <content type="html"><![CDATA[<ol><li>简单易学</li><li>面向对象</li><li>平台无关性</li><li>支持多线程</li><li>可靠性</li><li>安全性</li><li>高效性</li><li>支持网络编程并且很方便</li><li>编译和解释共存</li></ol>]]></content>
       
@@ -44,8 +44,8 @@
     
     <entry>
       <title>Java SE  vs  Java EE</title>
-      <link href="/post/0.html"/>
-      <url>/post/0.html</url>
+      <link href="/post/1.html"/>
+      <url>/post/1.html</url>
       
         <content type="html"><![CDATA[<ol><li>Java SE（Java Platform，Standard Edition）：<em>Java 平台标准版</em>，Java 编程语言的基础，它包含了<em>支持 Java 应用程序开发</em>和<em>运行的核心类库</em>以及<em>虚拟机</em>等核心组件。Java SE 可以用于构建桌面应用程序或简单的服务器应用程序。<ol><li>Java EE（Java Platform, Enterprise Edition ）：<em>Java 平台企业版</em>，建立在 Java SE 的基础上，包含了<em>支持企业级应用程序开发</em>和<em>部署的标准和规范</em>（比如 Servlet、JSP、EJB、JDBC、JPA、JTA、JavaMail、JMS）。 Java EE 可以用于构建分布式、可移植、健壮、可伸缩和安全的服务端 Java 应用程序，例如 Web 应用程序。</li></ol></li><li>总结：Java SE 是 Java 的<em>基础</em>版本，Java EE 是 Java 的<em>高级</em>版本。Java SE 更适合开发桌面应用程序或简单的服务器应用程序，Java EE 更适合开发复杂的企业级应用程序或 Web 应用程序。</li></ol>]]></content>
       
